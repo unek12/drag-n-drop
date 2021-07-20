@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.item-place {
+    width: 204px;
+    height: 204px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.item-place img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    user-select: none;
+}
